@@ -22,7 +22,7 @@ function rotateImage(data) {
       for(let col = 0; col < row; col++){
         [data[row][col], data[col][row]] = [data[col][row], data[row][col]]
       }
-      data[row] = data[row].reverse()
+      data[row].reverse()
     }
   return data
 }
