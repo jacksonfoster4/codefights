@@ -29,4 +29,3 @@ function isIPv4Address(inputString) {
     }
     return false
    }
-   
